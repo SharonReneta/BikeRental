@@ -1,0 +1,354 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@*<div class="text-center">
+    <h1>I am a headline made with HTML</h1>
+    <p>And I am a simple text paragraph. The color of this text is styled with CSS. Click the button below to remove me through the power JavaScript.</p>
+    <button>Hide the text above</button>
+</div>*@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Renzz</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#"> </a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">OUR SERVICE</a></li>
+                    <li><a href="#">TARIFF</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#" class="btn btn-primary btn-lg active" role="button">Search</a>
+                @*<a href="#"> <button class="btn">Search</button></a>*@
+            </div>
+
+        </div>
+        <div class="content">
+            <h1>Rent <br><span>Maintained Bikes</span> <br>for a comfortable & hassle free ride</h1>
+            <p class="par">
+                <br>
+                Bikes & Scooters available on Hourly, Daily, Weekly and Monthly Basis <br> 
+                <br>             </p>
+
+            <a href="#" class="btn btn-primary btn-lg active" role="button">Join Us</a>
+            @*<button class="cn"><a href="#">JOIN US</a></button>*@
+
+            <div class="form">
+                <h2>Login Here</h2>
+                <input type="email" name="email" placeholder="Enter Email Here">
+                <input type="password" name="" placeholder="Enter Password Here">
+                <a href="#" class="btn btn-primary btn-lg active" role="button">Login</a>
+                @*<button class="btnn"><a href="#">Login</a></button>*@
+
+                <p class="link">
+                    Don't have an account<br>
+                    <a href="#">Sign up </a><a> here</a>
+                </p>
+                <p class="liw">Log in with</p>
+
+                <div class="icons">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    @*</div>
+    </div>*@
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+
+</html>
+
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>Pure Css Grid</title>
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/site.js"></script>
+</head>
+<body>
+    <main>
+        <nav class="nav">
+            <div class="navbar">
+                <div class="logo-container">
+                    <a class="nav-link" href="#">
+                        <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve" class="logo" width="25px" height="25px">
+
+                        <path d="M0,167.85v216.2c0,33,26.8,59.8,59.8,59.8h370.4c33,0,59.8-26.8,59.8-59.8v-216.2c0-31.4-25.5-56.9-56.9-56.9h-79.6    l-1.9-8.3c-7.7-33.3-37-56.5-71.2-56.5h-70.9c-34.1,0-63.4,23.2-71.2,56.5l-1.9,8.3H56.9C25.5,110.95,0,136.55,0,167.85z     M146.2,135.45c5.7,0,10.6-3.9,11.9-9.5l4.1-17.8c5.2-22.1,24.6-37.5,47.3-37.5h70.9c22.7,0,42.1,15.4,47.3,37.5l4.1,17.8    c1.3,5.5,6.2,9.5,11.9,9.5H433c17.9,0,32.4,14.5,32.4,32.4v216.2c0,19.5-15.8,35.3-35.3,35.3H59.8c-19.5,0-35.3-15.8-35.3-35.3    v-216.2c0-17.9,14.5-32.4,32.4-32.4H146.2z"></path>
+                        <circle cx="82.9" cy="187.75" r="16.4"></circle>
+                        <path d="M245,380.95c56.7,0,102.9-46.2,102.9-102.9s-46.2-102.9-102.9-102.9s-102.9,46.1-102.9,102.9S188.3,380.95,245,380.95z     M245,199.65c43.2,0,78.4,35.2,78.4,78.4s-35.2,78.4-78.4,78.4s-78.4-35.2-78.4-78.4S201.8,199.65,245,199.65z"></path>
+
+</svg>
+
+                    </a>
+                    <a class="nav-link" href="#">
+                        <h2 class="logo-text">Album</h2>
+                    </a>
+                </div>
+                <div class="menu-container">
+                    <a class="nav-link" href="#">
+                        <h2 class="menu-icon">&#8801;</h2>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <article>
+            <div class="heading">
+                <p class="heading-title">Album Example</p>
+                <div class="heading-text">
+                    Something short and leading about
+                    the collection below—its <br /> contents,
+                    the creator, etc. Make it short and sweet,
+                    but not too short <br /> so folks don’t simply skip over it entirely.
+                </div>
+                <div class="header-buttons">
+                    <button class="primary-button add-cursor">
+                        Main call to action.
+                    </button>
+                    <button class="secondary-button add-cursor">
+                        Secondary action.
+                    </button>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="thumbnail">
+                        <p>Thumbnail</p>
+                    </div>
+                    <div class="card-text">
+                        This is a wider card with supporting
+                        text below as a natural
+                        lead-in to additional content.
+                        This content is a little bit longer.
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-button-1 hover-effect add-cursor">
+                            View
+                        </div>
+                        <div class="card-button-2 hover-effect add-cursor">
+                            Edit
+                        </div>
+                        <p class="card-bottom-text">
+                            9 mins
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="thumbnail">
+                        <p>Thumbnail</p>
+                    </div>
+                    <div class="card-text">
+                        This is a wider card with supporting
+                        text below as a natural
+                        lead-in to additional content.
+                        This content is a little bit longer.
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-button-1 hover-effect add-cursor">
+                            View
+                        </div>
+                        <div class="card-button-2 hover-effect add-cursor">
+                            Edit
+                        </div>
+                        <p class="card-bottom-text">
+                            9 mins
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="thumbnail">
+                        <p>Thumbnail</p>
+                    </div>
+                    <div class="card-text">
+                        This is a wider card with supporting
+                        text below as a natural
+                        lead-in to additional content.
+                        This content is a little bit longer.
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-button-1 hover-effect add-cursor">
+                            View
+                        </div>
+                        <div class="card-button-2 hover-effect add-cursor">
+                            Edit
+                        </div>
+                        <p class="card-bottom-text">
+                            9 mins
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="thumbnail">
+                        <p>Thumbnail</p>
+                    </div>
+                    <div class="card-text">
+                        This is a wider card with supporting
+                        text below as a natural
+                        lead-in to additional content.
+                        This content is a little bit longer.
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-button-1 hover-effect add-cursor">
+                            View
+                        </div>
+                        <div class="card-button-2 hover-effect add-cursor">
+                            Edit
+                        </div>
+                        <p class="card-bottom-text">
+                            9 mins
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="thumbnail">
+                        <p>Thumbnail</p>
+                    </div>
+                    <div class="card-text">
+                        This is a wider card with supporting
+                        text below as a natural
+                        lead-in to additional content.
+                        This content is a little bit longer.
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-button-1 hover-effect add-cursor">
+                            View
+                        </div>
+                        <div class="card-button-2 hover-effect add-cursor">
+                            Edit
+                        </div>
+                        <p class="card-bottom-text">
+                            9 mins
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="thumbnail">
+                        <p>Thumbnail</p>
+                    </div>
+                    <div class="card-text">
+                        This is a wider card with supporting
+                        text below as a natural
+                        lead-in to additional content.
+                        This content is a little bit longer.
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-button-1 hover-effect add-cursor">
+                            View
+                        </div>
+                        <div class="card-button-2 hover-effect add-cursor">
+                            Edit
+                        </div>
+                        <p class="card-bottom-text">
+                            9 mins
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="thumbnail">
+                        <p>Thumbnail</p>
+                    </div>
+                    <div class="card-text">
+                        This is a wider card with supporting
+                        text below as a natural
+                        lead-in to additional content.
+                        This content is a little bit longer.
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-button-1 hover-effect add-cursor">
+                            View
+                        </div>
+                        <div class="card-button-2 hover-effect add-cursor">
+                            Edit
+                        </div>
+                        <p class="card-bottom-text">
+                            9 mins
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="thumbnail">
+                        <p>Thumbnail</p>
+                    </div>
+                    <div class="card-text">
+                        This is a wider card with supporting
+                        text below as a natural
+                        lead-in to additional content.
+                        This content is a little bit longer.
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-button-1 hover-effect add-cursor">
+                            View
+                        </div>
+                        <div class="card-button-2 hover-effect add-cursor">
+                            Edit
+                        </div>
+                        <p class="card-bottom-text">
+                            9 mins
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="thumbnail">
+                        <p>Thumbnail</p>
+                    </div>
+                    <div class="card-text">
+                        This is a wider card with supporting
+                        text below as a natural
+                        lead-in to additional content.
+                        This content is a little bit longer.
+                    </div>
+                    <div class="card-buttons">
+                        <div class="card-button-1 hover-effect add-cursor">
+                            View
+                        </div>
+                        <div class="card-button-2 hover-effect add-cursor">
+                            Edit
+                        </div>
+                        <p class="card-bottom-text">
+                            9 mins
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <footer class="footer">
+            <p>
+                Album example is © Bootstrap, but please download and customize it for yourself!
+
+                New to Bootstrap? <a class="footer-link" href="#">Visit the homepage</a> or read our <a class="footer-link" href="#">getting started guide</a>.
+            </p>
+            <a class="back-top footer-link" href="#">Back Top</a>
+        </footer>
+    </main>
+</body>
+</html>
+
